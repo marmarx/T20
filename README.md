@@ -2,11 +2,13 @@
 A simple mobile character sheet for Tormenta 20 (Brazilian RPG) - Disclaimer: Portuguese ahead
 
 Tarefas pendentes:
-
+- enjoy :)
 
 Tarefas canceladas:
 - adicionar log de alterações feitas pelo usuário >> motivo: não há necessidade
 - adicionar suporte para retro-gerenciamento de: armas/armaduras e equipamentos >> motivo: pode confundir o usuário
+
+-------------------------------------------------
 
 <b>Histórico de versões:</b>
 
