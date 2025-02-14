@@ -1,9 +1,9 @@
 const cache_exp = 1000*60*60*24;	//24 hours cache_exp
 const cache_name = 'ficha-tormenta20-v1.6.3';
-const cache_resources = ['/','/print.html','/mestre.html',
-'/src/favicon.png','/src/css.css','/src/style.css','/src/back.jpg','/src/border-print.svg','/src/dice.svg','/src/logo.png','/src/noisy.png','/src/magic.svg','/src/Tormenta20.ttf',
-'/db/common.js','/db/conditions.js','/db/equips.js','/db/geral.js','/db/icons.js','/db/powers.js','/db/skills.js','/db/spells.js',
-'/js/dice_roller.js','/js/keyboard.js','/js/worker_list.js','/js/worker_power.js','/js/worker_spell.js'
+const cache_resources = ['./','./print.html','./mestre.html',
+'./src/favicon.png','./src/css.css','./src/style.css','./src/back.jpg','./src/border-print.svg','./src/dice.svg','./src/logo.png','./src/noisy.png','./src/magic.svg','./src/Tormenta20.ttf',
+'./db/common.js','./db/conditions.js','./db/equips.js','./db/geral.js','./db/icons.js','./db/powers.js','./db/skills.js','./db/spells.js',
+'./js/dice_roller.js','./js/keyboard.js','./js/worker_list.js','./js/worker_power.js','./js/worker_spell.js'
 ];
 
 //check if cached resource is expired
