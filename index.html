@@ -1022,7 +1022,7 @@ function total_value(){
  data.equip.forEach(function(e){
   let valor = e[3];
   if(isNaN(valor)){
-   valor = valor.replaceAll(' ','');
+   valor = valor?valor.replaceAll(' ',''):valor;
 
    if(valor.lastIndexOf('.')+3==valor.length){valor = valor.replaceAll(',','')}					//10000.00 	10,000.00
    else if(valor.lastIndexOf(',')+3==valor.length){valor = valor.replaceAll(".","").replaceAll(",",".")}	//10000,00 	10.000,00
